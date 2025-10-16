@@ -4,4 +4,7 @@
 void scSubroutineMult2(int &val);
 void scSubroutineDev2(int &val);
 
+void scSubroutinePow2(int &val);
+void scSubroutineSqrt(int &val);
+
 #endif
