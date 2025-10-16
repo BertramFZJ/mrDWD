@@ -15,3 +15,17 @@ void scSubroutineMinus1(int &val) {
 
     val = val - 1;
 }
+
+void scSubroutinePlusVar(int &val, int var) {
+
+    printf("RUN scSubroutinePlusVar\n");
+
+    val = val + var;
+}
+
+void scSubroutineMinusVar(int &val, int var) {
+
+    printf("RUN scSubroutineMinusVar\n");
+
+    val = val - var;
+}

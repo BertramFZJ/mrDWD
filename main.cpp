@@ -27,5 +27,13 @@ int main(void) {
 
     printf("MAIN ==> VALUE = %8d\n", value);
 
+    scSubroutinePlusVar(value, 4);
+
+    printf("MAIN ==> VALUE = %8d\n", value);
+
+    scSubroutineMinusVar(value, 4);
+
+    printf("MAIN ==> VALUE = %8d\n", value);
+
     return 0;
 }
