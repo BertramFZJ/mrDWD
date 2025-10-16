@@ -32,6 +32,11 @@ int main(void) {
     printf("MAIN ==> VALUE = %8d\n", value);
 
     scSubroutineMinusVar(value, 4);
+    scSubroutinePow2(value);
+
+    printf("MAIN ==> VALUE = %8d\n", value);
+
+    scSubroutineSqrt(value);
 
     printf("MAIN ==> VALUE = %8d\n", value);
 
